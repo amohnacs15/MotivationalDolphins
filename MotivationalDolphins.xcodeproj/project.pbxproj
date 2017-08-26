@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADCA9E51F52140900015F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCA9E41F52140900015F65 /* AppDelegate.swift */; };
+		FADCA9E71F52140900015F65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCA9E61F52140900015F65 /* ViewController.swift */; };
+		FADCA9EA1F52140900015F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADCA9E81F52140900015F65 /* Main.storyboard */; };
+		FADCA9EC1F52140900015F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADCA9EB1F52140900015F65 /* Assets.xcassets */; };
+		FADCA9EF1F52140900015F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADCA9ED1F52140900015F65 /* LaunchScreen.storyboard */; };
+		FADCA9FA1F52140A00015F65 /* MotivationalDolphinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCA9F91F52140A00015F65 /* MotivationalDolphinsTests.swift */; };
+		FADCAA051F52140A00015F65 /* MotivationalDolphinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCAA041F52140A00015F65 /* MotivationalDolphinsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADCA9F61F52140A00015F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADCA9D91F52140900015F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADCA9E01F52140900015F65;
+			remoteInfo = MotivationalDolphins;
+		};
+		FADCAA011F52140A00015F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADCA9D91F52140900015F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADCA9E01F52140900015F65;
+			remoteInfo = MotivationalDolphins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADCA9E11F52140900015F65 /* MotivationalDolphins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotivationalDolphins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADCA9E41F52140900015F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADCA9E61F52140900015F65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FADCA9E91F52140900015F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADCA9EB1F52140900015F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADCA9EE1F52140900015F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADCA9F01F52140900015F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADCA9F51F52140A00015F65 /* MotivationalDolphinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotivationalDolphinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADCA9F91F52140A00015F65 /* MotivationalDolphinsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalDolphinsTests.swift; sourceTree = "<group>"; };
+		FADCA9FB1F52140A00015F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADCAA001F52140A00015F65 /* MotivationalDolphinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotivationalDolphinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADCAA041F52140A00015F65 /* MotivationalDolphinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalDolphinsUITests.swift; sourceTree = "<group>"; };
+		FADCAA061F52140A00015F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADCA9DE1F52140900015F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCA9F21F52140A00015F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCA9FD1F52140A00015F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADCA9D81F52140900015F65 = {
+			isa = PBXGroup;
+			children = (
+				FADCA9E31F52140900015F65 /* MotivationalDolphins */,
+				FADCA9F81F52140A00015F65 /* MotivationalDolphinsTests */,
+				FADCAA031F52140A00015F65 /* MotivationalDolphinsUITests */,
+				FADCA9E21F52140900015F65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADCA9E21F52140900015F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADCA9E11F52140900015F65 /* MotivationalDolphins.app */,
+				FADCA9F51F52140A00015F65 /* MotivationalDolphinsTests.xctest */,
+				FADCAA001F52140A00015F65 /* MotivationalDolphinsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADCA9E31F52140900015F65 /* MotivationalDolphins */ = {
+			isa = PBXGroup;
+			children = (
+				FADCA9E41F52140900015F65 /* AppDelegate.swift */,
+				FADCA9E61F52140900015F65 /* ViewController.swift */,
+				FADCA9E81F52140900015F65 /* Main.storyboard */,
+				FADCA9EB1F52140900015F65 /* Assets.xcassets */,
+				FADCA9ED1F52140900015F65 /* LaunchScreen.storyboard */,
+				FADCA9F01F52140900015F65 /* Info.plist */,
+			);
+			path = MotivationalDolphins;
+			sourceTree = "<group>";
+		};
+		FADCA9F81F52140A00015F65 /* MotivationalDolphinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADCA9F91F52140A00015F65 /* MotivationalDolphinsTests.swift */,
+				FADCA9FB1F52140A00015F65 /* Info.plist */,
+			);
+			path = MotivationalDolphinsTests;
+			sourceTree = "<group>";
+		};
+		FADCAA031F52140A00015F65 /* MotivationalDolphinsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADCAA041F52140A00015F65 /* MotivationalDolphinsUITests.swift */,
+				FADCAA061F52140A00015F65 /* Info.plist */,
+			);
+			path = MotivationalDolphinsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADCA9E01F52140900015F65 /* MotivationalDolphins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADCAA091F52140A00015F65 /* Build configuration list for PBXNativeTarget "MotivationalDolphins" */;
+			buildPhases = (
+				FADCA9DD1F52140900015F65 /* Sources */,
+				FADCA9DE1F52140900015F65 /* Frameworks */,
+				FADCA9DF1F52140900015F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotivationalDolphins;
+			productName = MotivationalDolphins;
+			productReference = FADCA9E11F52140900015F65 /* MotivationalDolphins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADCA9F41F52140A00015F65 /* MotivationalDolphinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADCAA0C1F52140A00015F65 /* Build configuration list for PBXNativeTarget "MotivationalDolphinsTests" */;
+			buildPhases = (
+				FADCA9F11F52140A00015F65 /* Sources */,
+				FADCA9F21F52140A00015F65 /* Frameworks */,
+				FADCA9F31F52140A00015F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADCA9F71F52140A00015F65 /* PBXTargetDependency */,
+			);
+			name = MotivationalDolphinsTests;
+			productName = MotivationalDolphinsTests;
+			productReference = FADCA9F51F52140A00015F65 /* MotivationalDolphinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADCA9FF1F52140A00015F65 /* MotivationalDolphinsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADCAA0F1F52140A00015F65 /* Build configuration list for PBXNativeTarget "MotivationalDolphinsUITests" */;
+			buildPhases = (
+				FADCA9FC1F52140A00015F65 /* Sources */,
+				FADCA9FD1F52140A00015F65 /* Frameworks */,
+				FADCA9FE1F52140A00015F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADCAA021F52140A00015F65 /* PBXTargetDependency */,
+			);
+			name = MotivationalDolphinsUITests;
+			productName = MotivationalDolphinsUITests;
+			productReference = FADCAA001F52140A00015F65 /* MotivationalDolphinsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADCA9D91F52140900015F65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Adrian Max Mohnacs";
+				TargetAttributes = {
+					FADCA9E01F52140900015F65 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7XT5ZW8NHQ;
+						ProvisioningStyle = Automatic;
+					};
+					FADCA9F41F52140A00015F65 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7XT5ZW8NHQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FADCA9E01F52140900015F65;
+					};
+					FADCA9FF1F52140A00015F65 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7XT5ZW8NHQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FADCA9E01F52140900015F65;
+					};
+				};
+			};
+			buildConfigurationList = FADCA9DC1F52140900015F65 /* Build configuration list for PBXProject "MotivationalDolphins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADCA9D81F52140900015F65;
+			productRefGroup = FADCA9E21F52140900015F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADCA9E01F52140900015F65 /* MotivationalDolphins */,
+				FADCA9F41F52140A00015F65 /* MotivationalDolphinsTests */,
+				FADCA9FF1F52140A00015F65 /* MotivationalDolphinsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADCA9DF1F52140900015F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCA9EF1F52140900015F65 /* LaunchScreen.storyboard in Resources */,
+				FADCA9EC1F52140900015F65 /* Assets.xcassets in Resources */,
+				FADCA9EA1F52140900015F65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCA9F31F52140A00015F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCA9FE1F52140A00015F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADCA9DD1F52140900015F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCA9E71F52140900015F65 /* ViewController.swift in Sources */,
+				FADCA9E51F52140900015F65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCA9F11F52140A00015F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCA9FA1F52140A00015F65 /* MotivationalDolphinsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCA9FC1F52140A00015F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCAA051F52140A00015F65 /* MotivationalDolphinsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADCA9F71F52140A00015F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADCA9E01F52140900015F65 /* MotivationalDolphins */;
+			targetProxy = FADCA9F61F52140A00015F65 /* PBXContainerItemProxy */;
+		};
+		FADCAA021F52140A00015F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADCA9E01F52140900015F65 /* MotivationalDolphins */;
+			targetProxy = FADCAA011F52140A00015F65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADCA9E81F52140900015F65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADCA9E91F52140900015F65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADCA9ED1F52140900015F65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADCA9EE1F52140900015F65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADCAA071F52140A00015F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADCAA081F52140A00015F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADCAA0A1F52140A00015F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XT5ZW8NHQ;
+				INFOPLIST_FILE = MotivationalDolphins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidtitan.MotivationalDolphins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FADCAA0B1F52140A00015F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XT5ZW8NHQ;
+				INFOPLIST_FILE = MotivationalDolphins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidtitan.MotivationalDolphins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FADCAA0D1F52140A00015F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7XT5ZW8NHQ;
+				INFOPLIST_FILE = MotivationalDolphinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidtitan.MotivationalDolphinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotivationalDolphins.app/MotivationalDolphins";
+			};
+			name = Debug;
+		};
+		FADCAA0E1F52140A00015F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7XT5ZW8NHQ;
+				INFOPLIST_FILE = MotivationalDolphinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidtitan.MotivationalDolphinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotivationalDolphins.app/MotivationalDolphins";
+			};
+			name = Release;
+		};
+		FADCAA101F52140A00015F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7XT5ZW8NHQ;
+				INFOPLIST_FILE = MotivationalDolphinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidtitan.MotivationalDolphinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MotivationalDolphins;
+			};
+			name = Debug;
+		};
+		FADCAA111F52140A00015F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7XT5ZW8NHQ;
+				INFOPLIST_FILE = MotivationalDolphinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.androidtitan.MotivationalDolphinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MotivationalDolphins;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADCA9DC1F52140900015F65 /* Build configuration list for PBXProject "MotivationalDolphins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADCAA071F52140A00015F65 /* Debug */,
+				FADCAA081F52140A00015F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADCAA091F52140A00015F65 /* Build configuration list for PBXNativeTarget "MotivationalDolphins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADCAA0A1F52140A00015F65 /* Debug */,
+				FADCAA0B1F52140A00015F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FADCAA0C1F52140A00015F65 /* Build configuration list for PBXNativeTarget "MotivationalDolphinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADCAA0D1F52140A00015F65 /* Debug */,
+				FADCAA0E1F52140A00015F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FADCAA0F1F52140A00015F65 /* Build configuration list for PBXNativeTarget "MotivationalDolphinsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADCAA101F52140A00015F65 /* Debug */,
+				FADCAA111F52140A00015F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADCA9D91F52140900015F65 /* Project object */;
+}
