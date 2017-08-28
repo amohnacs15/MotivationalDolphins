@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA318C721F5321C20088FF3C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA318C711F5321C20088FF3C /* SwiftyJSON.swift */; };
+		FA318C741F5325310088FF3C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA318C731F5325310088FF3C /* Quote.swift */; };
 		FADCA9E51F52140900015F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCA9E41F52140900015F65 /* AppDelegate.swift */; };
 		FADCA9E71F52140900015F65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCA9E61F52140900015F65 /* ViewController.swift */; };
 		FADCA9EA1F52140900015F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADCA9E81F52140900015F65 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		FADCA9EF1F52140900015F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADCA9ED1F52140900015F65 /* LaunchScreen.storyboard */; };
 		FADCA9FA1F52140A00015F65 /* MotivationalDolphinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCA9F91F52140A00015F65 /* MotivationalDolphinsTests.swift */; };
 		FADCAA051F52140A00015F65 /* MotivationalDolphinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCAA041F52140A00015F65 /* MotivationalDolphinsUITests.swift */; };
+		FADCAA171F5234F400015F65 /* DolphinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCAA161F5234F400015F65 /* DolphinViewController.swift */; };
+		FADCAA1B1F5295E900015F65 /* DolphinImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCAA1A1F5295E900015F65 /* DolphinImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA318C711F5321C20088FF3C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		FA318C731F5325310088FF3C /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		FADCA9E11F52140900015F65 /* MotivationalDolphins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotivationalDolphins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADCA9E41F52140900015F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADCA9E61F52140900015F65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		FADCAA001F52140A00015F65 /* MotivationalDolphinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotivationalDolphinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADCAA041F52140A00015F65 /* MotivationalDolphinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalDolphinsUITests.swift; sourceTree = "<group>"; };
 		FADCAA061F52140A00015F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADCAA161F5234F400015F65 /* DolphinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolphinViewController.swift; sourceTree = "<group>"; };
+		FADCAA1A1F5295E900015F65 /* DolphinImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolphinImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA318C781F5382A60088FF3C /* data */ = {
+			isa = PBXGroup;
+			children = (
+				FADCAA1A1F5295E900015F65 /* DolphinImage.swift */,
+				FA318C731F5325310088FF3C /* Quote.swift */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		FA318C791F5382B40088FF3C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FA318C711F5321C20088FF3C /* SwiftyJSON.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		FA318C7A1F5382D60088FF3C /* main */ = {
+			isa = PBXGroup;
+			children = (
+				FADCA9E41F52140900015F65 /* AppDelegate.swift */,
+				FADCA9E61F52140900015F65 /* ViewController.swift */,
+				FADCAA161F5234F400015F65 /* DolphinViewController.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
 		FADCA9D81F52140900015F65 = {
 			isa = PBXGroup;
 			children = (
@@ -97,10 +132,11 @@
 		FADCA9E31F52140900015F65 /* MotivationalDolphins */ = {
 			isa = PBXGroup;
 			children = (
-				FADCA9E41F52140900015F65 /* AppDelegate.swift */,
-				FADCA9E61F52140900015F65 /* ViewController.swift */,
-				FADCA9E81F52140900015F65 /* Main.storyboard */,
+				FA318C791F5382B40088FF3C /* Utility */,
+				FA318C7A1F5382D60088FF3C /* main */,
+				FA318C781F5382A60088FF3C /* data */,
 				FADCA9EB1F52140900015F65 /* Assets.xcassets */,
+				FADCA9E81F52140900015F65 /* Main.storyboard */,
 				FADCA9ED1F52140900015F65 /* LaunchScreen.storyboard */,
 				FADCA9F01F52140900015F65 /* Info.plist */,
 			);
@@ -262,7 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADCAA171F5234F400015F65 /* DolphinViewController.swift in Sources */,
 				FADCA9E71F52140900015F65 /* ViewController.swift in Sources */,
+				FADCAA1B1F5295E900015F65 /* DolphinImage.swift in Sources */,
+				FA318C721F5321C20088FF3C /* SwiftyJSON.swift in Sources */,
+				FA318C741F5325310088FF3C /* Quote.swift in Sources */,
 				FADCA9E51F52140900015F65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +554,7 @@
 				FADCAA0B1F52140A00015F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FADCAA0C1F52140A00015F65 /* Build configuration list for PBXNativeTarget "MotivationalDolphinsTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +563,7 @@
 				FADCAA0E1F52140A00015F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FADCAA0F1F52140A00015F65 /* Build configuration list for PBXNativeTarget "MotivationalDolphinsUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +572,7 @@
 				FADCAA111F52140A00015F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
