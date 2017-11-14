@@ -120,14 +120,14 @@ class ViewController: UIViewController {
         print("gotcha long press")
         //Do Whatever You want on End of Gesture
         
-        createDialog(dialogButtonText: "Thank You", title: "Well, look at what we found",
-                     message: "Congratulations. You've found one of the many hidden features inside the app. For having worked so hard to find it this app's developer now owes you one night out in Washington DC. \n\n Something you should know about the dev is that one of his favorite things to do is visit the Natural History Museum. Stemming from his youthful desires to become a Paleontologist and travel the world's deserts. Now, he honors those memories of a lost childhood by revisitng the museums.\n\n Mission: Spend the whole day inside the Natural History Museum with him BUT as adults we sneak in mixed drinks and snacks")
+        createDialog(dialogButtonText: "Mission Accepted", title: "Welcome, Secret Agent",
+                     message: "Congratulations. You've found one of the app's many hidden features. For having worked so hard to find it this app's developer now owes you one night out in Washington DC. \n\n Something you should know about the dev is that one of his favorite things to do is visit the Natural History Museum. Stemming from his youthful desires to become a Paleontologist and travel the world's deserts. Now, he honors those memories of a lost childhood by revisitng the museums.\n\n Mission: Spend the whole day inside the Natural History Museum with him BUT as adults we sneak in mixed drinks and snacks")
     }
     
     @objc private func onContactClick(button: UIButton) {
         print("onContactClick")
         
-        createDialog(dialogButtonText: "OK", title: "Reach Out", message: "You now have your very own developer available to you at any hour whenever you need assistance...you know his number")
+        createDialog(dialogButtonText: "OK", title: "Reach Out", message: "You now have your very own developer available to you at any hour whenever you need assistance. Give him a call.")
     }
     
     func downloadMotivationalQuote() {
