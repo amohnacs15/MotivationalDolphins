@@ -229,7 +229,7 @@
 				TargetAttributes = {
 					FADCA9E01F52140900015F65 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 7XT5ZW8NHQ;
+						DevelopmentTeam = 8B6KK7BR3K;
 						ProvisioningStyle = Automatic;
 					};
 					FADCA9F41F52140A00015F65 = {
@@ -455,10 +455,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7XT5ZW8NHQ;
+				DEVELOPMENT_TEAM = 8B6KK7BR3K;
 				INFOPLIST_FILE = MotivationalDolphins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.androidtitan.MotivationalDolphins;
+				PRODUCT_BUNDLE_IDENTIFIER = comm.androidtitan.MotivationalDolphins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -468,10 +468,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7XT5ZW8NHQ;
+				DEVELOPMENT_TEAM = 8B6KK7BR3K;
 				INFOPLIST_FILE = MotivationalDolphins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.androidtitan.MotivationalDolphins;
+				PRODUCT_BUNDLE_IDENTIFIER = comm.androidtitan.MotivationalDolphins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
